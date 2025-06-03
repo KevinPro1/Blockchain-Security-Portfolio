@@ -9,7 +9,6 @@
 
 ## 技术架构
 
-```mermaid
 graph LR
 A[攻击者] --> B(VPN接入点)
 B --> C{防火墙 pfSense}
@@ -17,7 +16,7 @@ C --> D[HMI系统]
 D --> E[物理开关]
 
 ## 技术流程
-
+```mermaid
 graph TD
     A[VPN异常登录] --> B[日志分析]
     B --> C{时间戳关联}
