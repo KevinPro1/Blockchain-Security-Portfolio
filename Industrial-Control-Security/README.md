@@ -26,7 +26,7 @@ E --> F[系统恢复]
 输入以下凭证：“用户名：playerone，密码：password123”，并在“Status > System Logs > System > General”路径下找到系统日志，
 为了进一步识别可疑活动，我前往“Status > Monitoring”页面，发现停电时间为5月12日19:55。
 
-![image](https://github.com/KevinPro1/Blockchain-Security-Portfolio/blob/main/Picture2.png)
+![image](https://github.com/KevinPro1/Blockchain-Security-Portfolio/blob/main/status%20monitoring%20interface.png)
 
 
 
