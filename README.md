@@ -1,8 +1,15 @@
  Minchuan Wu's Security Portfolio
+ 
 # 工业控制系统安全演练 / ICS Incident Response Simulation
-工业公司背景：
+
 ![image](https://github.com/KevinPro1/Blockchain-Security-Portfolio/blob/main/Picture1.png)
-- 场景：授权红队演练中响应凭证填充攻击 / Red team drill simulating credential stuffing attack  
+
+ 
+- Public power company.
+- Usernames and passwords were just leaked from a credit union that works closely with ZAPP.
+- Substation went offline, and it is suspected that it happened internally 
+Suspected Credential Stuffing Attack.
+
 - 技术动作：  
   - pfSense日志分析（20,000+条) / Analyzed over 20,000 pfSense logs 
   - 时间戳关联攻击溯源 / Traced attacker via timestamp correlation  
@@ -11,6 +18,4 @@
 - 方法论可复用于链上黑客追踪 / Methodology can be adapted for on-chain hacker tracing
  
 
-# 🔗 快速导航
-- [攻击分析报告](Industrial-Control-Security/docs/Attack_Analysis.md)  
-- [技能迁移证明](Blockchain-Migration_Report.md)  
+
