@@ -46,7 +46,7 @@ E --> F[系统恢复]
 
 为保障系统安全，我在 VPN > IPSec 下更新了预共享密钥，设置了更强的密码。最后，我通过其 IP 地址访问 HMI，并手动重置开关以恢复系统功能。
 
-![image]()
+![image](https://github.com/KevinPro1/Blockchain-Security-Portfolio/blob/main/Final%20check.png)
 
 
 最后，我通过 IP 地址 192.168.30.16 进入 HMI 界面，开启了 TLS10 和 TLS20，成功恢复了服务。
