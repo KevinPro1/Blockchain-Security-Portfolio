@@ -9,17 +9,24 @@
 
 ## 技术架构
 
-
 A[攻击者] --> B(VPN接入点)
 B --> C{防火墙 pfSense}
 C --> D[HMI系统]
 D --> E[物理开关]
 
 ## 技术流程
-```mermaid
-graph TD
-    A[VPN异常登录] --> B[日志分析]
-    B --> C{时间戳关联}
-    C --> D[定位泄露账户]
-    D --> E[密钥重置]
-    E --> F[系统恢复]
+A[VPN异常登录] --> B[日志分析]
+B --> C{时间戳关联}
+C --> D[定位泄露账户]
+D --> E[密钥重置]
+E --> F[系统恢复]
+
+
+首先：我开始分析日志以识别被攻破的账户，先打开网页浏览器，进入防火墙管理界面（通过 pfSense 网站），
+输入以下凭证：“用户名：playerone，密码：password123”，并在“Status > System Logs > System > General”路径下找到系统日志，
+为了进一步识别可疑活动，我前往“Status > Monitoring”页面，发现停电时间为5月12日19:55。
+
+![image](https://github.com/KevinPro1/Blockchain-Security-Portfolio/blob/main/Picture2.png)
+
+
+
