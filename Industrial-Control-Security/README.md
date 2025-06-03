@@ -51,7 +51,7 @@ E --> F[系统恢复]
 
 最后，我通过 IP 地址 192.168.30.16 进入 HMI 界面，开启了 TLS10 和 TLS20，成功恢复了服务。
 
-![image]()
+![image](https://github.com/KevinPro1/Blockchain-Security-Portfolio/blob/main/Substation%20Overview.png)
 
 
 
