@@ -40,10 +40,18 @@ E --> F[系统恢复]
 
 在确认系统宕机时间附近的 IPSec 日志中，我注意到一条日志显示，其中一个预共享密钥列表中的用户名被分配到了相同的 IP 地址。
 我由此判断该账户已被攻破。
+
 ![image](https://github.com/KevinPro1/Blockchain-Security-Portfolio/blob/main/Ipsec%20Logs.png)
 
 
+为保障系统安全，我在 VPN > IPSec 下更新了预共享密钥，设置了更强的密码。最后，我通过其 IP 地址访问 HMI，并手动重置开关以恢复系统功能。
 
+![image]()
+
+
+最后，我通过 IP 地址 192.168.30.16 进入 HMI 界面，开启了 TLS10 和 TLS20，成功恢复了服务。
+
+![image]()
 
 
 
