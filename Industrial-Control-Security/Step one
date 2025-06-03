@@ -1,3 +1,0 @@
-我开始分析日志以识别被攻破的账户，先打开网页浏览器，进入防火墙管理界面（通过 pfSense 网站），
-输入以下凭证：“用户名：playerone，密码：password123”，并在“Status > System Logs > System > General”路径下找到系统日志，
-为了进一步识别可疑活动，我前往“Status > Monitoring”页面，发现停电时间为5月12日19:55。
