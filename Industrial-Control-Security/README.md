@@ -34,7 +34,13 @@ E --> F[系统恢复]
 
 随后导航至防火墙日志，并筛选出目标为已知 HMI 系统（IP 地址为 192.168.30.16）的连接记录，
 我识别出一个可疑的内部 IP 地址：192.168.31.171
+
 ![image](https://github.com/KevinPro1/Blockchain-Security-Portfolio/blob/main/Firewall-Log-Entries.png)
+
+
+在我确认系统宕机时间附近的 IPSec 日志中，我们注意到一条日志显示，其中一个预共享密钥列表中的用户名被分配到了相同的 IP 地址。
+我们团队由此判断该账户已被攻破。
+![image]()
 
 
 
