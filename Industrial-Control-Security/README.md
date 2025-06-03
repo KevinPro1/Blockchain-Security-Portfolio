@@ -34,7 +34,7 @@ E --> F[系统恢复]
 
 随后导航至防火墙日志，并筛选出目标为已知 HMI 系统（IP 地址为 192.168.30.16）的连接记录，
 我识别出一个可疑的内部 IP 地址：192.168.31.171
-![image]()
+![image](https://github.com/KevinPro1/Blockchain-Security-Portfolio/blob/main/Firewall-Log-Entries.png)
 
 
 
