@@ -38,9 +38,11 @@ E --> F[系统恢复]
 ![image](https://github.com/KevinPro1/Blockchain-Security-Portfolio/blob/main/Firewall-Log-Entries.png)
 
 
-在我确认系统宕机时间附近的 IPSec 日志中，我们注意到一条日志显示，其中一个预共享密钥列表中的用户名被分配到了相同的 IP 地址。
-我们团队由此判断该账户已被攻破。
-![image]()
+在确认系统宕机时间附近的 IPSec 日志中，我注意到一条日志显示，其中一个预共享密钥列表中的用户名被分配到了相同的 IP 地址。
+我由此判断该账户已被攻破。
+![image](https://github.com/KevinPro1/Blockchain-Security-Portfolio/blob/main/Ipsec%20Logs.png)
+
+
 
 
 
