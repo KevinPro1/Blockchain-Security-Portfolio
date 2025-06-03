@@ -30,10 +30,11 @@ E --> F[系统恢复]
 
 
 之后我发现了预共享密钥以及疑似用户名的信息，
-！[image](https://github.com/KevinPro1/Blockchain-Security-Portfolio/blob/main/preshared%20keys%E5%85%B1%E4%BA%AB%E5%AF%86%E9%92%A5.png)
+![image](https://github.com/KevinPro1/Blockchain-Security-Portfolio/blob/main/preshared%20keys%E5%85%B1%E4%BA%AB%E5%AF%86%E9%92%A5.png)
 
 随后导航至防火墙日志，并筛选出目标为已知 HMI 系统（IP 地址为 192.168.30.16）的连接记录，
 我识别出一个可疑的内部 IP 地址：192.168.31.171
+![image]()
 
 
 
