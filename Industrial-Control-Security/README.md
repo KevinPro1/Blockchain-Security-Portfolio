@@ -9,7 +9,7 @@
 
 ## 技术架构
 
-graph LR
+
 A[攻击者] --> B(VPN接入点)
 B --> C{防火墙 pfSense}
 C --> D[HMI系统]
